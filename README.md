@@ -15,7 +15,7 @@ Then use the URL that is printed as the [Add-on Repository URL](https://github.c
 
 **index.js** file contents:
 
-```
+```javascript
 const express = require('express')
 
 var app = express()
