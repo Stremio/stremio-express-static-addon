@@ -1,0 +1,15 @@
+{
+  "id": "com.stremio.expressexample",
+  "version": "0.0.1",
+  "name": "Stremio Express Add-on",
+  "description": "Stremio Express Add-on Example",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "BigBuckBunnyCatalog",
+      "name": "Big Buck Bunny Catalog"
+    }
+  ]
+}
