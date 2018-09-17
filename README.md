@@ -18,10 +18,10 @@ Then use the URL that is printed as the [Add-on Repository URL](https://github.c
 ```javascript
 const express = require('express')
 
-var app = express()
+const app = express()
 
 const opts = {
-  setHeaders: function (res, path, stat) {
+  setHeaders: (res, path, stat) => {
     res.set('Access-Control-Allow-Origin', '*')
     res.set('Access-Control-Allow-Headers', '*')
   }
