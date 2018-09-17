@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-Then use the URL that is printed as the [Repository Add-on URL](https://github.com/Stremio/stremio-express-addon-example#dont-know-where-to-add-the-add-on-repository-url)
+Then use the URL that is printed as the [Add-on Repository URL](https://github.com/Stremio/stremio-express-addon-example#dont-know-where-to-add-the-add-on-repository-url)
 
 ## Understanding Express Add-on
 
@@ -52,7 +52,7 @@ This will typically bring a response such as:
 your url is: https://perfect-bird-96.localtunnel.me
 ```
 
-In which case you should use `https://perfect-bird-96.localtunnel.me/manifest.json` as your [Repository Add-on URL](https://github.com/Stremio/stremio-express-addon-example#dont-know-where-to-add-the-add-on-repository-url)
+In which case you should use `https://perfect-bird-96.localtunnel.me/manifest.json` as your [Add-on Repository URL](https://github.com/Stremio/stremio-express-addon-example#dont-know-where-to-add-the-add-on-repository-url)
 
 ### Don't know where to add the Add-on Repository URL?
 
